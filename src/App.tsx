@@ -14,16 +14,15 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      {/* Add basename here to match your repository name */}
+      <BrowserRouter basename="/smeet-poladia">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/publication/:slug" element={<PublicationDetail />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
 );
-
 export default App;
