@@ -26,14 +26,14 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  With a strong foundation in statistical analysis and years of hands-on experience 
-                  in quantitative trading, I specialize in developing and implementing trading 
+                  I'm Smeet Poladia, a statistics graduate with hands-on experience 
+                  in quantitative trading. I specialize in developing and implementing trading 
                   strategies for electricity markets.
                 </p>
                 <p>
-                  My journey has taken me through diverse market environments—from the bustling 
-                  trading floors of the US to the emerging markets of India, and now the sophisticated 
-                  European power markets in Germany.
+                  My journey has taken me through diverse market environments—from SESCO Enterprises 
+                  in Pittsburgh to the emerging markets of India, and now the sophisticated 
+                  European power markets in Munich, Germany.
                 </p>
                 <p>
                   This global perspective, combined with rigorous statistical training, allows me 
