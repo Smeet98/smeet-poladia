@@ -2,7 +2,7 @@ import { MapPin } from "lucide-react";
 
 const experiences = [
   {
-    period: "2023 - Present",
+    period: "Dec 2025 - Present",
     location: "Munich, Germany",
     role: "Quantitative Trader",
     company: "Current Position",
@@ -10,20 +10,20 @@ const experiences = [
     flag: "🇩🇪",
   },
   {
-    period: "2020 - 2023",
+    period: "2024 - 2025",
+    location: "India",
+    role: "Quantitative Trader",
+    company: "Energy Markets",
+    description: "Applied quantitative methods to energy trading. Leveraged statistical expertise in emerging market dynamics.",
+    flag: "🇮🇳",
+  },
+  {
+    period: "2021 - 2023",
     location: "Pittsburgh, Pennsylvania",
     role: "Quantitative Trader",
     company: "SESCO Enterprises",
     description: "Built and executed trading strategies for electricity markets. Developed statistical models for price forecasting and portfolio optimization.",
     flag: "🇺🇸",
-  },
-  {
-    period: "2018 - 2020",
-    location: "India",
-    role: "Analyst",
-    company: "Early Career",
-    description: "Foundation in quantitative analysis and statistical modeling. Developed analytical skills in emerging market environments.",
-    flag: "🇮🇳",
   },
 ];
 
