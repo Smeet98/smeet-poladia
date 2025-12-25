@@ -2,21 +2,19 @@ import { GraduationCap, Award, Rocket } from "lucide-react";
 
 const education = [
   {
-    degree: "Master of Science in Statistics",
+    degree: "Master of Statistical Practice",
     institution: "Carnegie Mellon University",
     location: "Pittsburgh, Pennsylvania",
-    period: "2019 - 2021",
+    period: "2020 - 2021",
     icon: GraduationCap,
-    description: "Rigorous training in statistical theory, computational methods, and data analysis with focus on quantitative finance applications.",
     flag: "🇺🇸",
   },
   {
-    degree: "Advanced Certification Programme in Space Technologies",
-    institution: "Indian Institute of Science (IISc)",
-    location: "Bangalore, India",
-    period: "Certificate Program",
-    icon: Rocket,
-    description: "Specialized certification exploring advanced space technologies, satellite systems, and their applications.",
+    degree: "Bachelor of Science in Statistics",
+    institution: "University of Mumbai",
+    location: "Mumbai, India",
+    period: "2016 - 2020",
+    icon: GraduationCap,
     flag: "🇮🇳",
   },
 ];
@@ -57,9 +55,6 @@ const Education = () => {
                     <p className="text-muted-foreground text-xs">{edu.location}</p>
                   </div>
                 </div>
-                <p className="text-muted-foreground text-sm leading-relaxed">
-                  {edu.description}
-                </p>
               </div>
             ))}
           </div>

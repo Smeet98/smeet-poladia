@@ -37,14 +37,14 @@ const Hero = () => {
             Quantitative Trader specializing in{" "}
             <span className="text-primary font-medium">electricity markets</span>
             <br className="hidden md:block" />
-            with global experience across three continents
+            with global experience across three countries.
           </p>
           
           {/* Stats row */}
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 mb-12 animate-fade-up" style={{ animationDelay: '0.4s' }}>
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 text-3xl md:text-4xl font-bold font-mono text-primary">
-                <Zap className="w-6 h-6" />
+                {/* <Zap className="w-6 h-6" /> */}  {/* Removed icon */}
                 <span>5+</span>
               </div>
               <p className="text-sm text-muted-foreground mt-1">Years Experience</p>
@@ -54,10 +54,11 @@ const Hero = () => {
               <p className="text-sm text-muted-foreground mt-1">Countries</p>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold font-mono text-foreground">CMU</div>
+              <div className="text-3xl md:text-4xl font-bold font-mono text-foreground">Carnegie Mellon</div>
               <p className="text-sm text-muted-foreground mt-1">Stats Graduate</p>
             </div>
           </div>
+
           
           {/* Scroll indicator */}
           <a 

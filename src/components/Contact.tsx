@@ -10,24 +10,17 @@ const Contact = () => {
           <span className="text-primary font-mono text-sm tracking-wider uppercase mb-4 block">
             Contact
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Let's <span className="text-gradient">Connect</span>
-          </h2>
-          <p className="text-muted-foreground mb-12">
-            Open to discussing market opportunities, research collaborations, 
-            or just exchanging ideas about energy markets.
-          </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a 
-              href="mailto:contact@example.com"
+              href="mailto:simplysmeet@zohomail.in"
               className="group flex items-center gap-3 px-6 py-4 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 transition-colors glow"
             >
               <Mail className="w-5 h-5" />
               <span className="font-medium">Get in Touch</span>
             </a>
             <a 
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/smeet3084/"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-3 px-6 py-4 rounded-xl bg-card border border-border hover:border-primary/50 transition-all"
@@ -39,7 +32,7 @@ const Contact = () => {
           
           <div className="mt-12 flex items-center justify-center gap-2 text-muted-foreground">
             <MapPin className="w-4 h-4" />
-            <span className="text-sm">Berlin, Germany</span>
+            <span className="text-sm">Munich, Germany</span>
           </div>
         </div>
       </div>

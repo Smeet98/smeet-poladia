@@ -2,12 +2,11 @@ import { useState, useEffect } from "react";
 import { Menu, X, Zap } from "lucide-react";
 
 const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#experience", label: "Experience" },
-  { href: "#education", label: "Education" },
-  { href: "#expertise", label: "Expertise" },
-  { href: "#public-domain", label: "Publications" },
-  { href: "#contact", label: "Contact" },
+  // { href: "#about", label: "About" },
+  // { href: "#experience", label: "Experience" },
+  // { href: "#education", label: "Education" },
+  { href: "#public-domain", label: "Insights" },
+  // { href: "#contact", label: "Contact" },
 ];
 
 const Navigation = () => {
@@ -33,7 +32,6 @@ const Navigation = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 text-primary font-bold text-xl">
             <Zap className="w-6 h-6" />
-            <span className="font-mono">QT</span>
           </a>
           
           {/* Desktop nav */}
