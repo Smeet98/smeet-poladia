@@ -19,20 +19,20 @@ const Hero = () => {
               <span className="relative inline-flex h-2 w-2 rounded-full bg-primary" />
             </span>
             <span className="text-sm font-mono text-muted-foreground">
-              Currently based in <span className="text-primary">Berlin, Germany</span>
+              Currently based in <span className="text-primary">Munich, Germany</span>
             </span>
           </div>
           
           {/* Name */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            <span className="text-foreground">Quantitative</span>
+            <span className="text-foreground">Smeet</span>
             <br />
-            <span className="text-gradient glow-text">Trader</span>
+            <span className="text-gradient glow-text">Poladia</span>
           </h1>
           
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8 font-light animate-fade-up" style={{ animationDelay: '0.2s' }}>
-            Statistics graduate specializing in{" "}
+            Quantitative Trader specializing in{" "}
             <span className="text-primary font-medium">electricity markets</span>
             <br className="hidden md:block" />
             with global experience across three continents
@@ -43,7 +43,7 @@ const Hero = () => {
             <div className="text-center">
               <div className="flex items-center justify-center gap-2 text-3xl md:text-4xl font-bold font-mono text-primary">
                 <Zap className="w-6 h-6" />
-                <span>8+</span>
+                <span>5+</span>
               </div>
               <p className="text-sm text-muted-foreground mt-1">Years Experience</p>
             </div>
