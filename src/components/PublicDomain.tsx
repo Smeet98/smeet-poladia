@@ -12,11 +12,11 @@ const publications = [
   },
   {
     slug: "seminar",
-    title: "Quantitative Approaches to Power Trading",
-    description: "An educational seminar covering statistical methods and practical applications in electricity market trading.",
+    title: "Wholesale Electricity Markets and ERCOT: A Quantitative Trading Perspective",
+    description: "Introducing the fundamentals of wholesale electricity markets, with a focus on ERCOT—the independent system operator managing Texas's power grid. The discussion links market design to operational dynamics, highlighting how price formation and congestion management create opportunities for generators, traders, and load-serving entities.",
     icon: Mic,
     tag: "Speaking",
-    status: "Recorded",
+    status: "Published on YouTube",
   },
   {
     slug: "future-projects",

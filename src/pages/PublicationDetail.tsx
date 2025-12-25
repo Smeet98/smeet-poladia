@@ -27,13 +27,13 @@ Topics covered include:
   },
   seminar: {
     type: "seminar",
-    title: "Quantitative Approaches to Power Trading",
+    title: "Wholesale Electricity Markets and ERCOT: A Quantitative Trading Perspective",
     subtitle: "Educational Seminar",
     icon: Mic,
-    description: "An in-depth seminar covering statistical methods and practical applications in electricity market trading.",
-    forum: "Industry Educational Forum",
-    date: "2024",
-    duration: "45 minutes",
+    description: "Introducing the fundamentals of wholesale electricity markets, with a focus on ERCOT—the independent system operator managing Texas's power grid. The discussion links market design to operational dynamics, highlighting how price formation and congestion management create opportunities for generators, traders, and load-serving entities.",
+    forum: "XKDR Forum",
+    date: "2025",
+    duration: "1 Hour",
     content: `This seminar provides a comprehensive overview of how quantitative methods are applied in real-world electricity trading scenarios.
 
 Key Topics Covered:
@@ -44,7 +44,7 @@ Key Topics Covered:
 • Real-world case studies from US and European markets
 
 The presentation draws from practical experience at SESCO Enterprises and insights gained from working across multiple geographies in the energy trading space.`,
-    videoUrl: "https://youtu.be/W7g04Rfa-AU?si=0_rdQZzeXlCSy4fH",
+    videoUrl: "https://youtu.be/W7g04Rfa-AU?si=FFWuphkxRNY7d-Kn",
     suggestedReadings: [
       { title: "Analysis of Financial Time Series", author: "Ruey S. Tsay" },
       { title: "Options, Futures, and Other Derivatives", author: "John C. Hull" },

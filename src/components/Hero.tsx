@@ -12,23 +12,7 @@ const Hero = () => {
       
       <div className="container relative z-10 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Headshot */}
-          <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto mb-8 animate-fade-up">
-            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent opacity-20 blur-xl" />
-            <div className="relative w-full h-full rounded-full border-2 border-primary/50 overflow-hidden bg-secondary flex items-center justify-center">
-              {/* Placeholder for headshot - replace src with actual image */}
-              <div className="text-muted-foreground text-sm font-mono text-center p-4">
-                Add<br />Headshot
-              </div>
-              {/* Uncomment and update when you have an actual image:
-              <img 
-                src="/headshot.jpg" 
-                alt="Smeet Poladia"
-                className="w-full h-full object-cover"
-              />
-              */}
-            </div>
-          </div>
+
 
           {/* Status indicator */}
           <div className="inline-flex items-center gap-2 px-4 py-2 mb-8 rounded-full border border-primary/30 bg-secondary/50 backdrop-blur-sm animate-fade-up" style={{ animationDelay: '0.1s' }}>
