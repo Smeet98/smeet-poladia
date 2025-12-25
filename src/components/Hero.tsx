@@ -37,7 +37,7 @@ const Hero = () => {
             Quantitative Trader specializing in{" "}
             <span className="text-primary font-medium">electricity markets</span>
             <br className="hidden md:block" />
-            with global experience across three countries.
+            {" "}with global experience across three countries.
           </p>
           
           {/* Stats row */}
