@@ -14,7 +14,7 @@ const experiences = [
     location: "Mumbai, India",
     role: "Quantitative Researcher",
     company: "Equigreen Ventures LLP",
-    description: "Applied quantitative methods to energy trading. Leveraged statistical expertise in emerging market dynamics.",
+    description: "Applied quantitative methods across securities and commodities markets.",
     flag: "🇮🇳",
   },
   {

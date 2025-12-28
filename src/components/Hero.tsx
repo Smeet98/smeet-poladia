@@ -35,9 +35,7 @@ const Hero = () => {
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8 font-light animate-fade-up" style={{ animationDelay: '0.3s' }}>
             Quantitative Trader specializing in{" "}
-            <span className="text-primary font-medium">electricity markets</span>
-            <br className="hidden md:block" />
-            {" "}with global experience across three countries.
+            <span className="text-primary font-medium">electricity markets</span>.
           </p>
           
           {/* Stats row */}

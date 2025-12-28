@@ -37,9 +37,8 @@ const About = () => {
             </h2>
             <p className="text-muted-foreground leading-relaxed">
               I'm Smeet Poladia, a statistics graduate and quantitative trader specializing 
-              in electricity markets across Europe, the US, and India. My work combines rigorous 
-              statistical modeling, research, and optimization to develop effective trading strategies 
-              and manage risk efficiently.
+              in electricity markets across Europe, the US, and India. I use statistical modeling, 
+              quantitative research, and optimization to design data-driven solutions for electricity market challenges.
             </p>
           </div>
 
